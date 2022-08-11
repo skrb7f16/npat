@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".GameRoomActivity">
+
+    <EditText
+        android:id="@+id/nameVal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/placeVal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Place"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/animalVal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Animal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/thingVal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thing"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/submit_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
